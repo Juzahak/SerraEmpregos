@@ -191,16 +191,20 @@
   .menuicon {
     width: 20%;
     height: 30%;
-    margin-right: 10px;
+    
     margin-top: 28px;
   }
 
-  @media (min-width:400px) {
+  @media (min-width:900px) {
     .menuicon{
       width: 35%;
       
    margin-top: -6 px;
     
+    }
+    
+    .dropdownsubmenu a {
+      font-size: 30px;
     }
     
     
@@ -232,6 +236,8 @@
   
   
   
+
+
   .dropdownsubmenu {
     margin-top: 1px;
     z-index: 2;
@@ -243,13 +249,13 @@
   .dropdownsubmenu a {
     background-color: lightgray;
     color: blue;
-    padding-top: 15px;
+    padding-top: 25px;
     display: flex;
     justify-content: flex-start;
     padding-left: 7px;
     z-index: 3;
     font-size: 40px;
-    padding-bottom: 15px;
+    padding-bottom: 25px;
     border: 1px black solid;
     border-radius: 5px;
     margin-top: 10px;
