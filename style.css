@@ -192,6 +192,7 @@
     width: 20%;
     height: 30%;
     margin-right: 10px;
+    margin-top: 28px;
   }
 
   @media (min-width:400px) {
