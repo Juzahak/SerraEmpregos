@@ -40,8 +40,11 @@
     margin-top: -15px;
   }
 
-  @media (min-width: 400px) {
-    
+  @media (max-width: 900px) {
+    .logo{
+      width: 300px;
+      height: 150px;
+    }
   }
   
   .descricao {
@@ -191,8 +194,6 @@
   .menuicon {
     width: 20%;
     height: 30%;
-    
-    margin-top: 28px;
   }
 
   @media (min-width:900px) {
