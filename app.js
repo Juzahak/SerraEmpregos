@@ -103,7 +103,7 @@ html+="<div class='date'>"+minhalista2[1].data+"</div>";
     
     
       html+= "<div class='cvagas'>";
-      html+= "<div class='vaga'><a href='vaga.html/?id="+minhalista[i].id+"' class='botao'>"+minhalista[i].vaga+"</a></div>";
+      html+= "<div class='vaga'><a href='vaga.html?id="+minhalista[i].id+"' class='botao'>"+minhalista[i].vaga+"</a></div>";
       html+= "<h5 class='cidade'>"+minhalista[i].cidade+"</h5>";
       html+= "<div class='divisor'></div>";
       html+= "</div>";
@@ -125,7 +125,7 @@ function funCall2() {
     for (let i = 0; i < minhalista2.length; i++) {
     
       html+= "<div class='cvagas'>";
-      html+= "<div class='vaga'><a href='vaga.html/?id="+minhalista2[i].id+"' class='botao'>"+minhalista2[i].vaga+"</a></div>";
+      html+= "<div class='vaga'><a href='vaga.html?id="+minhalista2[i].id+"' class='botao'>"+minhalista2[i].vaga+"</a></div>";
       html+= "<h5 class='cidade'>"+minhalista2[i].cidade+"</h5>";
       html+= "<div class='divisor'></div>";
       html+= "</div>";
