@@ -392,7 +392,7 @@ z-index: 10;
   .rodapetitulo{
     margin-bottom: 15px;
     color: darkblue;
-    font-size: 15px;
+    font-size: 20px;
   }
 
   .rodapetexto{
@@ -449,10 +449,12 @@ z-index: 10;
     .rodapetexto{
       position: relative;
       top: 40px;
+      font-size: 20px;
     }
 
     .copiright{
       position: relative;
     top: 40px;
+      font-size: 20px;
     }
   }
