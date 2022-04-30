@@ -35,8 +35,8 @@
   }
   
   .logo {
-    width: 130px;
-    height: 93px;
+    width: 140px;
+    height: 110px;
     margin-left: 20px;
     margin-top: -5px;
   }
@@ -210,10 +210,10 @@
   }
   
   .menuicon {
-    width: 20%;
+    width: 25%;
     height: 30%;
     position: relative;
-    left: 45px;
+    left: 40px;
     top: 10px;
 
   }
