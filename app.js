@@ -77,7 +77,44 @@ let minhalista2 = [
   ]
  
  
- 
+ let minhalista3 = [
+  {
+    vaga: "Auxiliar Jurídico",
+    cidade: "Ficticio",
+    data:"01/05/2022",
+    descricao:"Auxiliar Jurídico - Bauru<br>Cadastrado em: 29/04/2022<br><br>Aqui te queremos #DoSeuJeito!<br><br>Queremos que você faça parte do nosso time do jeito que você é. <br><br>Esperamos que você tenha:<br>- Foco para entregar a melhor experiência para os nossos clientes.<br>- Agilidade e comprometimento com as suas entregas.<br>- Ética e transparência em todos os processos da empresa  <br>- Respeito à Diversidade.<br>- Perfil Inovador, buscando fazer diferente e com excelência às suas atividades<br><br>Queremos suas contribuições para: <br>Apoiar a área jurídica, administrativa e atividades relacionadas ao parceiro, auxiliando no gerenciamento de processos judiciais e documentos técnicos, com foco na produtividade e qualidade no segmento de busca e apreensão.<br><br>Esperamos que você tenha:<br>- Tecnólogo em serviços jurídicos ou cursando em Direito<br>- Disponibilidade para atuação presencial<br><br>O que mais você vai encontrar por aqui?<br>Day off no dia do seu aniversário  <br>Ambiente descontraído e diverso <br>Clube de Vantagens  <br>Gympass<br>Flexibilidade de horário <br>Oportunidades para o desenvolvimento da sua Carreira   <br><br>Todas as nossas #vagas são também disponíveis para pessoas com deficiência e/ou aposentados. <br><br>LINK: https://jobs.kenoby.com/paschoalotto/job/auxiliar-juridico-bauru/622210ce6c16c1104aab3ff7<br>Contato: -<br><br>Vaga em Bauru",
+    id: "11"
+  },
+  {
+    vaga: "Psicóloga(o)",
+    cidade: "Ficticio",
+    data:"01/05/2022",
+    descricao:"Psicóloga(o) - Bauru<br>Cadastrado em: 29/04/2022<br><br>OSC contrata Psicóloga (o) para atuar em Serviço de Acolhimento Institucional para Crianças e Adolescentes. <br><br>Requisitos: <br>- Graduação em Psicologia, <br>- Experiência com elaboração de relatórios técnicos, <br>- Articulações com redes/instituições,  <br>- Desenvolvimento de atividades técnicas socioeducativas com a participação dos usuários e comunidade; <br>- Elaborar em conjunto com os atendidos o Plano Individual de Atendimento (PIA); garantindo os anseios e potencialidades, <br>- Experiência em saúde integral e a realidade social (substâncias psicoativas, comorbidade, doenças patológicas, etc..) <br><br>Interessados enviar currículo com a sigla PSICO no campo assunto para o e-mail: entidadesocialcontrata@hotmail.com.com até o dia 04/05/22.<br>Contato: entidadesocialcontrata@hotmail.com<br><br>Vaga em Bauru",
+    id: "12"
+  },
+  {
+    vaga: "Jovem Aprendiz",
+    cidade: "Ficticio",
+    data:"01/05/2022",
+    descricao:"Jovem Aprendiz – PCM - Bauru<br>Cadastrado em: 29/04/2022<br><br>Irá auxiliar nas rotinas administrativas da equipe de Planejamento e Controle de Manutenção: Arquivar documentos; Realizar apontamentos no sistema; Coleta de assinaturas de ordens de serviço; Alimentar planilhas; Impressão e entrega de documentos; Outras atividades relacionadas ao setor.<br><br>Pré-requisitos:<br>- Ter entre 18 e 22 anos;<br>- Ensino médio completo ou cursando;<br>- Pacote Office básico;<br>- Cursando Técnico em manutenção, eletrotécnica ou áreas correlatas será um diferencial.<br><br>Interessados, enviar currículo para o e-mail rh.bauru@zanchetta.com.br com o título “Jovem Aprendiz - PCM” no campo do assunto.<br>Contato: rh.bauru@zanchetta.com.br<br><br>Vaga em Bauru",
+    id: "13"
+  },
+  {
+    vaga: "Motorista",
+    cidade: "Ficticio",
+    data:"01/05/2022",
+    descricao:"Motorista - Bauru<br>Cadastrado em: 29/04/2022<br><br>Requisitos: Habilitação na categoria D ou E<br><br>Cursos de Transporte Escolar.<br><br>Oferece: Salário compatível com a função, Vale Alimentação, Cesta Básica.<br><br>Interessados devem enviar o CV para curriculo@brambilla.com.br com a sigla Motorista Bauru<br>Contato: curriculo@brambilla.com.br<br><br>Vaga em Bauru",
+    id: "14"
+  },
+  {
+    vaga: "Estagiário de Backoffice",
+    cidade: "Ficticio",
+    data:"01/05/2022",
+    descricao:"Estagiário de Backoffice - Bauru<br>Cadastrado em: 29/04/2022<br><br>- Unificar informações de acionamento para envio ao banco;<br>- Disparo e conferência das ações de SMS de todas as carteiras;<br>- Alimentar controles internos com esses disparos, garantindo que não ultrapasse a cota do mês;<br>- Baixar, organizar e concatenar os kits de ajuizamento do Banco Safra;<br>- Encaminhar e-mails às operações e banco em relação aos acionamentos;<br>- Alimentar informações no sistema jurídico. Auxilia o analista nas atividades diárias.<br>- Praticar as ações nos processos/atividades, de sua responsabilidade, para alcançar as metas/objetivos pretendidos.<br><br>Requisitos:<br>- Disponibilidade de horário. <br>- Desejável residir em Bauru.<br><br>Cadastre seu currículo no site www.concilig.com.br – Trabalhe Conosco.<br><br>Essa vaga destina-se também a pessoas com deficiência.<br>Contato: -<br><br>Vaga em Bauru",
+    id: "15"
+  }
+  
+  ]
  
  
  function date() {
@@ -94,7 +131,12 @@ html+="<div class='date'>"+minhalista2[1].data+"</div>";
  document.getElementById('date2').innerHTML = html;
  }
  
- 
+ function date3() {
+var html = "";
+html+="<div class='date'>"+minhalista3[1].data+"</div>";
+
+ document.getElementById('date3').innerHTML = html;
+ }
  
   function funCall() {
   
@@ -135,6 +177,25 @@ function funCall2() {
    console.log(html);
 
    document.getElementById('vaguinha2').innerHTML = html;
+    
+  }
+  
+  function funCall3() {
+  
+  var html = "";
+    for (let i = 0; i < minhalista3.length; i++) {
+    
+      html+= "<div class='cvagas'>";
+      html+= "<div class='vaga'><a href='vaga.html?id="+minhalista3[i].id+"' class='botao'>"+minhalista3[i].vaga+"</a></div>";
+      html+= "<h5 class='cidade'>"+minhalista3[i].cidade+"</h5>";
+      html+= "<div class='divisor'></div>";
+      html+= "</div>";
+    
+     
+      
+   console.log(html);
+
+   document.getElementById('vaguinha3').innerHTML = html;
     
   }
   
@@ -191,6 +252,31 @@ function funCall2() {
   
   }
 
+  
+  function description3() {
+    
+    var params = (new URL(document.location)).searchParams;
+    
+    var ide = params.get("id");
+    
+    console.log(ide);
+    
+  var html1 = "";
+  
+  for (let i = 0; i < minhalista3.length; i++) {
+  
+  console.log(minhalista3[i].id)
+  
+   if (ide == minhalista3[i].id) {
+    html1+= "<div class='descriptioncss'>"+minhalista3[i].descricao+"</div>";
+    
+   document.getElementById('description1').innerHTML = html1;
+   }
+  
+  console.log(html1)
+  }
+  
+  }
 
 
 let dropdown = document.getElementById('dropdown_');
