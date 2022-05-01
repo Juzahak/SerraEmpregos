@@ -180,6 +180,7 @@ function funCall2() {
     
   }
   
+}
   function funCall3() {
   
   var html = "";
