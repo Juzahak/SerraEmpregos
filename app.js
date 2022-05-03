@@ -369,7 +369,7 @@ function description4() {
   
   console.log(html1)
   }
-
+}
 
 let dropdown = document.getElementById('dropdown_');
 
