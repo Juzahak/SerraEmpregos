@@ -116,6 +116,45 @@ let minhalista2 = [
   
   ]
  
+ let minhalista4 = [
+  {
+    vaga: "Assistente de Marketing",
+    cidade: "Ficticio",
+    data:"03/05/2022",
+    descricao:"Assistente de Marketing - Bauru<br>Cadastrado em: 03/05/2022<br><br>Missão: Desenvolver atividades relacionadas ao Marketing e a Comunicação da Cetro, criação de conteúdo em geral, atualizações relacionadas aos produtos em plataformas de e-commerce, sempre visando dar o apoio necessário à equipe.<br><br>Pré-requisitos:<br>Cursando Graduação em Comunicação, Publicidade e Propaganda, Relações Públicas ou áreas afins.<br>Experiência na área de Marketing;<br>Conhecimento pleno em português escrito e verbal;<br>Habilidade em criação de conteúdo;<br>Gestão de redes sociais;<br>Pacote office.<br><br>Diferenciais:<br>Conhecimento em marketing digital e ecommerce;<br>Inglês intermediário.<br><br>LINK: https://abler.in/v83543<br>Contato: -<br><br>Vaga em Bauru",
+    id: "16"
+  },
+  {
+    vaga: "Soldador Serralheiro",
+    cidade: "Ficticio",
+    data:"03/05/2022",
+    descricao:"Soldador Serralheiro - Bauru<br>Cadastrado em: 03/05/2022<br><br>REQUISITOS E QUALIFICAÇÕES<br>- Experiência anterior na função;<br>- Cursos e conhecimento nos processos de solda, corte e dobra como: Eletrodo, TIG, MIG, MAG;<br>- Ter noções de caldeiraria, esquadria, habilidades com corte e traçado com maçarico, traçagem e corte de chapas<br>- Disponibilidade de horário;<br>- Disponibilidade para início imediato;<br><br>DESCRIÇÃO DAS ATIVIDADES<br>- Reparo de máquinas e equipamentos utilizando os processos de corte (lixadeira, maçarico, plasma), serralheria, solda MIG e TIG, montagem de peças;<br>- Confecção, reparo e instalação de peças, sempre com acabamento nas soldas, removendo carepas e respingos,<br>- Realizar solda em bancada e em equipamentos em linha de produção.<br>- Atuar diretamente com a equipe de manutenção, trabalhando com ordens de serviço via PCM<br><br>Interessados, enviar currículo ao e-mail: cv@mezzani.com.br<br>No assunto do e-mail, colocar: SOLDADOR<br>Contato: cv@mezzani.com.br<br><br>Vaga em Bauru",
+    id: "17"
+  },
+  {
+    vaga: "Analista de Tráfego Pago",
+    cidade: "Ficticio",
+    data:"03/05/2022",
+    descricao:"Analista de Tráfego Pago (Mídias) - Bauru<br>Cadastrado em: 03/05/2022<br><br>Responsabilidades:<br>Implementar, analisar e otimizar campanhas de mídia com foco em garantir resultados acima da curva aos nossos clientes; <br>Participar do planejamento das campanhas e Plano de Mídia; <br>Criar, otimizar e mensurar Campanhas no Google, Facebook e Instagram; <br>Realizar um acompanhamento constante dos KPIs de mídia;<br>Auxiliar na mensuração dos melhores custos-benefícios por audiências;<br>Desempenhar um papel importante na identificação de oportunidades de mídia; <br>Participar das discussões estratégicas e das decisões da área; <br>Elaborar e apresentar relatórios e estudos de mídias.<br><br>Requisitos: <br>Formação concluída nas áreas de comunicação ou tecnologias; <br>Conhecer as principais estratégias de Marketing Digital; <br>Domínio e certificação das plataformas google (ads/analytics/tag manager/etc.); <br>Conhecimentos de facebook ads/instagram ads/linkedin ads; <br>Experiência com Tráfego Pago. <br><br>O que esperamos de você: <br>Boa comunicação; <br>Senso de time; <br>Desenvolvimento; <br>Organização; <br>Flexibilidade.<br><br>Oferecemos:<br>Salário compatível com a função + benefícios<br>Contratação CLT<br><br>Horário de Trabalho:<br>Segunda a sexta, em horário comercial.<br><br>Interessados enviar currículo para o email: selecaovagarh2022@gmail.com com a sigla TRÁFEGO<br>Contato: selecaovagarh2022@gmail.com<br><br>Vaga em Bauru",
+    id: "18"
+  },
+  {
+    vaga: "Oficial de Rede / Meio Oficial de Rede",
+    cidade: "Ficticio",
+    data:"03/05/2022",
+    descricao:"Oficial de Rede / Meio Oficial de Rede - Bauru<br>Cadastrado em: 02/05/2022<br><br>FAÇA PARTE DO NOSSO TIME!<br><br>VAGA: OFICIAL DE REDE / MEIO OFICIAL DE REDE<br><br>REQUISITOS:  Conhecimento  e experiência com lançamentos de cabos ópticos e metálicos, manusear maquinas e equipamentos ( Maq. de espinar, Catraca, Fusimec ).<br><br>Disponibilidade de Viagem.<br><br>ATRIBUIÇÕES: Realizar instalação e montagem de infraestrutura de redes, realizar manutenção e reparos em cabos aéreos e subterrâneos das redes de acesso e backbone e  em  cabos de fibra óptica.<br><br>INFORMAÇÕES:  Salário base + 30% de periculosidade + 10% de dirigibilidade ( se vier a dirigir ) + Benefícios: VR R$ 20,00/ dia trabalhado, VT, seguro de vida.<br><br>CIDADE: BAURU<br><br>RESIDIR EM BAURU<br><br>ENVIE SEU CURRÍCULO PARA: redebauru@cantoiafigueiredo.com.br<br>Contato: redebauru@cantoiafigueiredo.com.br<br><br>Vaga em Bauru",
+    id: "19"
+  },
+  {
+    vaga: "Estagiário Administrativo",
+    cidade: "Ficticio",
+    data:"03/05/2022",
+    descricao:"Estagiário Administrativo - Bauru<br>Cadastrado em: 03/05/2022<br><br>Se você é estudante do Ensino Superior e busca uma oportunidade para colocar seus conhecimentos em prática, se liga: temos diversas vagas de estágio disponíveis para você!<br><br>No maior Atacadista Distribuidor do estado de São Paulo você encontrará um ambiente aberto a criatividade e inovação e, que preza pela valorização às pessoas. A Servimed acredita em atitudes que transformam e, por isso, tem trabalhado para apoiar no intercâmbio entre o aprendizado adquirido na faculdade e a vivência profissional na empresa.  Venha fazer parte do nosso time!<br><br>Pré-Requisitos<br>- Estar cursando Ensino Superior, preferencialmente nos cursos de Engenharia, Administração, Gestão de RH e Ciências Contábeis.<br>- Disponibilidade para estagiar 6h por dia, de segunda a sexta-feira, com contrato de aproximadamente 12 meses.<br>- Conhecimento básico em Pacote Office.<br><br>Como participar?<br>1. Faça seu cadastro aqui mesmo e deixe seu perfil completo, com informações atualizadas.<br>2. Não se esqueça de incluir em seu cadastro um comprovante de matrícula atualizado, constando o semestre/ano do curso em que você está matriculado<br>3. Acesse a sua Trilha Online e responda todos os testes disponíveis.<br><br>As inscrições serão aceitas até 15 de maio de 2022 pelo link: https://jobs.kenoby.com/servimed/job/estagiario-administrativo/62685713aaa14f53ce5353a8?utm_source=website<br>Contato: -<br><br>Vaga em Bauru",
+    id: "20"
+  }
+  
+  ]
+ 
  
  function date() {
 var html = "";
@@ -138,6 +177,13 @@ html+="<div class='date'>"+minhalista3[1].data+"</div>";
  document.getElementById('date3').innerHTML = html;
  }
  
+function date4() {
+var html = "";
+html+="<div class='date'>"+minhalista4[1].data+"</div>";
+
+ document.getElementById('date4').innerHTML = html;
+ }
+
   function funCall() {
   
   var html = "";
@@ -203,6 +249,28 @@ function funCall2() {
   
   }
   
+function funCall4() {
+  
+  var html = "";
+    for (let i = 0; i < minhalista4.length; i++) {
+    
+      html+= "<div class='cvagas'>";
+      html+= "<div class='vaga'><a href='vaga.html?id="+minhalista4[i].id+"' class='botao'>"+minhalista4[i].vaga+"</a></div>";
+      html+= "<h5 class='cidade'>"+minhalista4[i].cidade+"</h5>";
+      html+= "<div class='divisor'></div>";
+      html+= "</div>";
+    
+     
+      
+   console.log(html);
+
+   document.getElementById('vaguinha4').innerHTML = html;
+    
+  }
+  
+  
+  }
+
   function description() {
     
     var params = (new URL(document.location)).searchParams;
@@ -277,6 +345,29 @@ function funCall2() {
   console.log(html1)
   }
   
+  }
+
+function description4() {
+    
+    var params = (new URL(document.location)).searchParams;
+    
+    var ide = params.get("id");
+    
+    console.log(ide);
+    
+  var html1 = "";
+  
+  for (let i = 0; i < minhalista4.length; i++) {
+  
+  console.log(minhalista4[i].id)
+  
+   if (ide == minhalista4[i].id) {
+    html1+= "<div class='descriptioncss'>"+minhalista4[i].descricao+"</div>";
+    
+   document.getElementById('description1').innerHTML = html1;
+   }
+  
+  console.log(html1)
   }
 
 
