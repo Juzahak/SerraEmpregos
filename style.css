@@ -213,10 +213,10 @@
   }
   
   .menuicon {
-    width: 25%;
+    width: 35%;
     height: 30%;
     position: relative;
-    left: 40px;
+    left: 30px;
     top: 20px;
 
   }
@@ -232,7 +232,7 @@
   }
   
   .dropdownmenu {
-    width: 170px;
+    width: 150px;
     height: 50px;
   
     list-style: none;
