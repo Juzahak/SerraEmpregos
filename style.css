@@ -241,6 +241,11 @@ z-index: 10;
     right: 10px;
 }
   
+@media (max-width: 350px) {
+    .dropdownmenu{
+      width: 140px;
+    }
+  }
   
   .dropdownmenu a {
     z-index: 2;
