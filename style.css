@@ -391,7 +391,7 @@ z-index: 10;
 
   .rodapetitulo{
     margin-bottom: 15px;
-    margin-top: 10px;
+    margin-top: 30px;
     color: darkblue;
     font-size: 20px;
   }
@@ -429,7 +429,7 @@ z-index: 10;
   @media (min-width:480px) {
     .rodape{
       padding-top: 50px;
-      padding-bottom: 55px;
+      padding-bottom: 115px;
     }
     .alinhado{
       position: relative;
@@ -443,19 +443,19 @@ z-index: 10;
     }
 
     .rodapelogo {
-      width: 200px;
+      width: 270px;
 
     }
 
     .rodapetexto{
       position: relative;
-      top: 40px;
+      top: 95px;
       font-size: 20px;
     }
 
     .copiright{
       position: relative;
-    top: 40px;
+    top: 100px;
       font-size: 20px;
     }
   }
