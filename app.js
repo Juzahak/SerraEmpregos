@@ -155,6 +155,46 @@ let minhalista2 = [
   
   ]
  
+ let minhalista5 = [
+  {
+    vaga: "Advogado",
+    cidade: "Ficticio",
+    data:"08/05/2022",
+    descricao:"Advogado - Bauru<br>Cadastrado em: 06/05/2022<br><br>Empresa: AVALLONE ADVOGADOS.<br><br>Empresa Avallone Advogados contrata:<br><br>ADVOGADO<br><br>Salário Compatível + Benefícios. <br><br>Os interessados devem encaminhar currículos para: trabalhista6@avalloneadvogados.com.br<br><br>Colocar no assunto: ADVOGADO<br>Contato: trabalhista6@avalloneadvogados.com.br<br><br>Vaga em Bauru",
+    id: "21"
+  },
+  {
+    vaga: "Designer",
+    cidade: "Ficticio",
+    data:"08/05/2022",
+    descricao:"Designer - Bauru<br>Cadastrado em: 06/05/2022<br><br>Requisitos: Superior Arquitetura e ou  Designer.<br><br>Conhecimentos:   Comunicação visual e arquitetura (voltados para o Comércio e principalmente na área de Supermercados), desenho gráfico, desenho técnico, leitura de projetos (arquitetônicos)e projeção em 3D.<br><br>Habilidades: Software : Ilustrador, Photoshop, AutoCad  e Sketchup.<br><br>Atitudes: Criativo e proativo.<br>Contato: lino.leme@geraarte.com.br<br><br>Vaga em Bauru",
+    id: "22"
+  },
+  {
+    vaga: "Auxiliar de PCP",
+    cidade: "Ficticio",
+    data:"08/05/2022",
+    descricao:"Auxiliar de PCP - Bauru<br>Cadastrado em: 06/05/2022<br><br>CURSO:  Engenharia de Produção<br><br>Auxiliar no planejamento, controle e programação da produção, monitorar estoque de materiais recebidos e acompanhar ordens de fabricação. Outras atividades de apoio ao Departamento de PCP.<br><br>Empresa: Gera Arte Comunicação Visual<br><br>Trabalhar em Bauru.<br>Contato: lino.leme@geraarte.com.br<br><br>Vaga em Bauru",
+    id: "23"
+  },
+  {
+    vaga: "Auxiliar de Estoque",
+    cidade: "Ficticio",
+    data:"08/05/2022",
+    descricao:"Auxiliar de Estoque - Bauru<br>Cadastrado em: 06/05/2022<br><br>- Descrição: Recebimento e conferência, verificação da validade e do estoque dos produtos. Balanços, inventários, relatórios, fiscalizar a entrada, saída e a armazenagem correta das mercadorias. Auxiliar nas atividades diárias do estoque. <br><br>- Regime de contratação: CLT<br><br>- Como se candidatar: Interessados deverão encaminhar currículo no email: sac@ilikeprofessional.com.br (colocar no assunto "AUX ESTOQUE ")<br><br>- Empresa: Ilike Professional<br>Contato: sac@ilikeprofessional.com.br<br><br>Vaga em Bauru",
+    id: "24"
+  },
+  {
+    vaga: "Limpador de Vidro Com Experiência",
+    cidade: "Ficticio",
+    data:"08/05/2022",
+    descricao:"Limpador de Vidro Com Experiência - Bauru<br>Cadastrado em: 06/05/2022<br><br>Descrição: Executar tarefas de limpeza de vidros, espelhos e fachadas (quando necessário será utilizado plataforma móvel);<br><br>Preparar o matéria de limpeza;<br><br>Verificar o kit limpa vidros;<br><br>Sinalizar áreas quando necessário, antes de iniciar a limpeza;<br><br>Remover Resíduos dos vidros, lavar e enxugar vidros manualmente, lavar fachadas de pedra e revestimento cerâmico, limpar janelas de alumínio e madeiras;<br><br>Chegar o tipo de vidro a ser limpo, se há película protetora no mesmo;<br><br>Manter a conservação de todo equipamento utilizado.<br><br>Regime de contratação: CLT<br><br>Como se candidatar: curriculo.rhbauru@gmail.com<br>Contato: curriculo.rhbauru@gmail.com<br><br>Vaga em Bauru",
+    id: "25"
+  }
+  
+  ]
+
+ 
  
  function date() {
 var html = "";
@@ -183,6 +223,14 @@ html+="<div class='date'>"+minhalista4[1].data+"</div>";
 
  document.getElementById('date4').innerHTML = html;
  }
+
+function date5() {
+var html = "";
+html+="<div class='date'>"+minhalista5[1].data+"</div>";
+
+ document.getElementById('date5').innerHTML = html;
+ }
+
 
   function funCall() {
   
@@ -265,6 +313,28 @@ function funCall4() {
    console.log(html);
 
    document.getElementById('vaguinha4').innerHTML = html;
+    
+  }
+  
+  
+  }
+
+function funCall5() {
+  
+  var html = "";
+    for (let i = 0; i < minhalista5.length; i++) {
+    
+      html+= "<div class='cvagas'>";
+      html+= "<div class='vaga'><a href='vaga.html?id="+minhalista5[i].id+"' class='botao'>"+minhalista5[i].vaga+"</a></div>";
+      html+= "<h5 class='cidade'>"+minhalista5[i].cidade+"</h5>";
+      html+= "<div class='divisor'></div>";
+      html+= "</div>";
+    
+     
+      
+   console.log(html);
+
+   document.getElementById('vaguinha5').innerHTML = html;
     
   }
   
@@ -363,6 +433,30 @@ function description4() {
   
    if (ide == minhalista4[i].id) {
     html1+= "<div class='descriptioncss'>"+minhalista4[i].descricao+"</div>";
+    
+   document.getElementById('description1').innerHTML = html1;
+   }
+  
+  console.log(html1)
+  }
+}
+
+function description5() {
+    
+    var params = (new URL(document.location)).searchParams;
+    
+    var ide = params.get("id");
+    
+    console.log(ide);
+    
+  var html1 = "";
+  
+  for (let i = 0; i < minhalista5.length; i++) {
+  
+  console.log(minhalista5[i].id)
+  
+   if (ide == minhalista5[i].id) {
+    html1+= "<div class='descriptioncss'>"+minhalista5[i].descricao+"</div>";
     
    document.getElementById('description1').innerHTML = html1;
    }
