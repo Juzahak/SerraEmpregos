@@ -47,6 +47,8 @@
       
       width: 400px;
       height: 150px;
+      padding-top: 20px;
+      margin-left: 30px;
     }
 
     .propa1 {
@@ -224,7 +226,7 @@
     height: 30%;
     position: relative;
     left: 0px;
-    top: 15px;
+    top: 20px;
     }
   }
   
