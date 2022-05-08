@@ -226,7 +226,7 @@
       width: 48%;
     height: 30%;
     position: relative;
-    left: 0px;
+    left: -15px;
     top: 20px;
     }
   }
@@ -277,7 +277,7 @@ z-index: 10;
       width: 48%;
       height: 30%;
       position: relative;
-      left: -15px;
+      left: 15px;
       top: 20px;
     }
   
@@ -364,6 +364,10 @@ z-index: 10;
   }
   
   @media (min-width:480px) {
+    .dropdownsubmenu {
+      margin-left: -30px;
+    }
+    
     .azul{
       font-size: 40px;
     }
