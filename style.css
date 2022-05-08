@@ -244,7 +244,15 @@ z-index: 10;
   
 @media (max-width: 350px) {
     .dropdownmenu{
-      width: 140px;
+      width: 100px;
+    }
+  
+    .menuicon {
+      width: 40%;
+      height: 30%;
+      position: relative;
+      left: 15px;
+      top: 20px;
     }
   }
   
