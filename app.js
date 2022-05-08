@@ -181,7 +181,7 @@ let minhalista2 = [
     vaga: "Auxiliar de Estoque",
     cidade: "Ficticio",
     data:"08/05/2022",
-    descricao:"Auxiliar de Estoque - Bauru<br>Cadastrado em: 06/05/2022<br><br>- Descrição: Recebimento e conferência, verificação da validade e do estoque dos produtos. Balanços, inventários, relatórios, fiscalizar a entrada, saída e a armazenagem correta das mercadorias. Auxiliar nas atividades diárias do estoque. <br><br>- Regime de contratação: CLT<br><br>- Como se candidatar: Interessados deverão encaminhar currículo no email: sac@ilikeprofessional.com.br (colocar no assunto "AUX ESTOQUE ")<br><br>- Empresa: Ilike Professional<br>Contato: sac@ilikeprofessional.com.br<br><br>Vaga em Bauru",
+    descricao:"Auxiliar de Estoque - Bauru<br>Cadastrado em: 06/05/2022<br><br>- Descrição: Recebimento e conferência, verificação da validade e do estoque dos produtos. Balanços, inventários, relatórios, fiscalizar a entrada, saída e a armazenagem correta das mercadorias. Auxiliar nas atividades diárias do estoque. <br><br>- Regime de contratação: CLT<br><br>- Como se candidatar: Interessados deverão encaminhar currículo no email: sac@ilikeprofessional.com.br (colocar no assunto 'AUX ESTOQUE ')<br><br>- Empresa: Ilike Professional<br>Contato: sac@ilikeprofessional.com.br<br><br>Vaga em Bauru",
     id: "24"
   },
   {
