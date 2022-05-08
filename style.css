@@ -242,19 +242,7 @@ z-index: 10;
     right: 10px;
 }
   
-@media (max-width: 350px) {
-    .dropdownmenu{
-      width: 100px;
-    }
-  
-    .menuicon {
-      width: 40%;
-      height: 30%;
-      position: relative;
-      left: 15px;
-      top: 20px;
-    }
-  }
+
   
   .dropdownmenu a {
     z-index: 2;
@@ -280,6 +268,26 @@ z-index: 10;
     
   }
   
+@media (max-width: 350px) {
+    .dropdownmenu{
+      width: 100px;
+    }
+  
+    .menuicon {
+      width: 48%;
+      height: 30%;
+      position: relative;
+      left: -15px;
+      top: 20px;
+    }
+  
+    .dropdownsubmenu {
+      margin-top: 1px;
+      z-index: 2;
+      margin-left: -30px;
+  }
+  }
+
   .dropdownsubmenu a {
     background-color: lightgray;
     color: blue;
